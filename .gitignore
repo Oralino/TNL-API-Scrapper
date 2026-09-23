@@ -18,3 +18,7 @@ yarn-error.log*
 # Ignore OS system files
 .DS_Store
 Thumbs.db
+
+# Secrets: never commit
+.env.*
+!.env.example
